@@ -17,24 +17,28 @@ export const HeroSection = () => {
             </p>
             <div className="space-y-4 mb-8">
               <div className="flex items-center justify-center lg:justify-start text-primary-foreground">
-                <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
                 <span className="text-lg">✅ Sigur pentru toate tipurile de țevi</span>
               </div>
               <div className="flex items-center justify-center lg:justify-start text-primary-foreground">
-                <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
                 <span className="text-lg">✅ Necorosiv și ecologic</span>
               </div>
               <div className="flex items-center justify-center lg:justify-start text-primary-foreground">
-                <div className="w-2 h-2 bg-accent rounded-full mr-3"></div>
-                <span className="text-lg">✅ Rezultate garantate în 15 minute</span>
+                <span className="text-lg">✅ Rezultate garantate în câteva minute</span>
               </div>
             </div>
-            <Button 
-              size="lg" 
-              className="bg-accent hover:bg-accent/90 text-accent-foreground text-xl px-12 py-6 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300"
-            >
-              COMANDĂ ACUM - DOAR 89 LEI!
-            </Button>
+            <div className="text-center lg:text-left">
+              <Button 
+                size="lg" 
+                className="bg-accent hover:bg-accent/90 text-accent-foreground text-xl px-12 py-6 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                Comandă acum
+              </Button>
+              <div className="mt-4 text-primary-foreground/80 text-sm flex items-center justify-center lg:justify-start">
+                <span className="mr-2">👆</span>
+                <span>Apăsați aici pentru a afla prețul</span>
+                <span className="ml-2">👆</span>
+              </div>
+            </div>
           </div>
           <div className="flex justify-center">
             <div className="relative">
