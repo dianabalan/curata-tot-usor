@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { PaperformButton } from "./PaperformButton";
 
 export const CTASection = () => {
   return (
@@ -39,12 +39,15 @@ export const CTASection = () => {
             </div>
           </div>
 
-          <Button 
+          <PaperformButton 
+            formId="YOUR_PAPERFORM_ID_HERE"
             size="lg" 
             className="bg-accent hover:bg-accent/90 text-accent-foreground text-2xl px-16 py-8 rounded-xl font-bold shadow-xl hover:shadow-2xl transition-all duration-300 animate-pulse"
+            modalTitle="Finalizează comanda - 89 LEI"
+            usePopup={false}
           >
             COMANDĂ ACUM - 89 LEI
-          </Button>
+          </PaperformButton>
 
           <div className="mt-6 text-sm text-muted-foreground">
             <p>📞 Sau sună la: <strong className="text-primary">0721 123 456</strong></p>

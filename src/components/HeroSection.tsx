@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { PaperformButton } from "./PaperformButton";
 import productImage from "@/assets/drain-cleaner-product.jpg";
 
 export const HeroSection = () => {
@@ -27,12 +27,15 @@ export const HeroSection = () => {
               </div>
             </div>
             <div className="text-center lg:text-left">
-              <Button 
+              <PaperformButton 
+                formId="YOUR_PAPERFORM_ID_HERE"
                 size="lg" 
                 className="bg-accent hover:bg-accent/90 text-accent-foreground text-xl px-12 py-6 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300"
+                modalTitle="Completează comanda ta"
+                usePopup={false}
               >
                 Comandă acum
-              </Button>
+              </PaperformButton>
               <div className="mt-4 text-primary-foreground/80 text-sm flex items-center justify-center lg:justify-start">
                 <span className="mr-2">👆</span>
                 <span>Apăsați aici pentru a afla prețul</span>

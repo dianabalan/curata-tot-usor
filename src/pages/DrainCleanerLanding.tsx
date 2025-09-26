@@ -30,7 +30,7 @@ const DrainCleanerLanding = () => {
           </div>
           <div className="mt-6 pt-6 border-t border-border">
             <p className="text-xs text-muted-foreground">
-              © 2024 DrainSolver - Soluția ta pentru țevi curate. Toate drepturile rezervate.
+              © 2025 Solvo - Soluția ta pentru țevi curate. Toate drepturile rezervate.
             </p>
           </div>
         </div>
